@@ -39,7 +39,10 @@ export default function SnippetCreatePage() {
           <textarea name="code" className="border rounded p-2 w-full" />
         </div>
 
-        <button type="submit" className="rounded p-2 bg-blue-200">
+        <button
+          type="submit"
+          className="rounded px-4 py-2 bg-blue-500 text-white hover:bg-blue-600 transition-colors font-medium focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+        >
           Create
         </button>
       </div>
