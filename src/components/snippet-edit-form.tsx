@@ -11,7 +11,7 @@ interface SnippetEditFormProps {
 
 export default function SnippetEditForm({ snippet }: SnippetEditFormProps) {
   const [code, setCode] = useState(snippet.code);
-
+  
   const handleEditorChange = (value: string = '') => {
     setCode(value);
   };

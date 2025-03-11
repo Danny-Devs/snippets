@@ -1,6 +1,8 @@
 import Link from 'next/link';
 import { db } from '@/db';
 
+
+
 export default async function Home() {
   // get data from the database
   const snippets = await db.snippet.findMany();
